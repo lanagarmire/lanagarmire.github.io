@@ -923,19 +923,27 @@ h4 {
       </div>
       <div class="row">
         <div class="col-md-12">
-          <div class="footer"> <span class="pull-left"><span
-                class="info-phrase">Garmire Group @ 2014</span> | <span
-                class="info-phrase">LGarmire@cc.hawaii.edu</span> | <span
-          class="info-phrase">(808) 441-8193</span> | <span
-          class="info-phrase">University of Hawaii Cancer Center, 701 Ilalo St,
-    Honolulu, HI 96813</span></span> <span class="pull-right">Pages designed by
-  Xun Zhu</span></div>
+          <div class="footer">
+            <span class="pull-left">
+              <span class="info-phrase">Garmire Group @ 2014</span> |
+              <span class="info-phrase">LGarmire@cc.hawaii.edu</span> |
+              <span class="info-phrase">(808) 441-8193</span> |
+              <span class="info-phrase">University of Hawaii Cancer Center, 701 Ilalo St, Honolulu, HI 96813</span> |
+              <span class="info-phrase" id="visitor-counter"></span>
+            </span> <span class="pull-right">Pages designed by Xun Zhu</span></div>
         </div>
       </div>
     </div>
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script>
+
+var fhsh = document.createElement('script');
+var fhs_id_h = "3131394";
+fhsh.src = "//s1.freehostedscripts.net/ocount.php?site="+fhs_id_h+"&name=Visits&a=1";
+document.head.appendChild(fhsh);
+document.getElementById('visitor-counter').innerHTML = "<span id='h_"+fhs_id_h+"'></span>";
+
 (function (i, s, o, g, r, a, m) {
   i['GoogleAnalyticsObject'] = r;
   i[r] = i[r] || function () {
