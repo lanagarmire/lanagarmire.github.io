@@ -29,8 +29,8 @@
         <div class="panel-body">
           <form id="infoForm" class="form-horizontal" action="javascript:void(0);" method="GET">
             <fieldset>
-              <legend>Access to the source code of Granatum</legend>
-              <p>Please give us your name, institution, and email address (*.edu only) for access to the code:</p>
+              <legend>Access to the repository of Granatum</legend>
+              <p>Please give us your name, institution, and email address (*.edu only) for access:</p>
               <div class="form-group">
                 <div class="col-lg-12">
                   <div class="checkbox">
@@ -43,26 +43,26 @@
             </fieldset>
             <fieldset id="infoSet">
               <div class="form-group">
-                <label for="inputName" class="col-lg-2 control-label">Name</label>
-                <div class="col-lg-10">
+                <label for="inputName" class="col-lg-3 control-label">Name</label>
+                <div class="col-lg-9">
                   <input type="text" class="form-control" id="inputName" placeholder="Name">
                 </div>
               </div>
               <div class="form-group">
-                <label for="inputInstitution" class="col-lg-2 control-label">Institution</label>
-                <div class="col-lg-10">
+                <label for="inputInstitution" class="col-lg-3 control-label">Institution</label>
+                <div class="col-lg-9">
                   <input type="text" class="form-control" id="inputInstitution" placeholder="Institution">
                 </div>
               </div>
               <div class="form-group">
-                <label for="inputEmail" class="col-lg-2 control-label">Email</label>
-                <div class="col-lg-10">
+                <label for="inputEmail" class="col-lg-3 control-label">Email</label>
+                <div class="col-lg-9">
                   <input type="text" class="form-control" id="inputEmail" placeholder="Email">
                 </div>
               </div>
             </fieldset>
             <div class="form-group">
-              <div class="col-lg-10 col-lg-offset-2">
+              <div class="col-lg-9 pull-right">
                 <input id="submitButton" type="submit" class="btn btn-primary" value="Submit"></input>
                 <span id="submitMsg" class="help-block"></span>
               </div>
@@ -79,9 +79,9 @@
 <script>
   $('#checkAnonymous').on('click', function(){
     if ($('#checkAnonymous').is(':checked')) {
-      $('#infoSet').hide()
+      $('#infoSet').find('*').prop( "disabled", true )
     } else {
-      $('#infoSet').show()
+      $('#infoSet').find('*').prop( "disabled", false )
     }
   })
 
