@@ -3,8 +3,85 @@
 <head>
   <meta charset="UTF-8">
   <title></title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+  crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+  integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+  crossorigin="anonymous">
+
+<style>
+  .container {
+    margin-top: 20px;
+    max-width: 500px;
+  }
+</style>
 </head>
-<body>
-  Place Holder
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <form class="form-horizontal">
+            <fieldset>
+              <legend>Access to the source code of Granatum</legend>
+              <p>Please give us your name and email address (*.edu only) for access to the code:</p>
+              <div class="form-group">
+                <label for="inputName" class="col-lg-2 control-label">Name</label>
+                <div class="col-lg-10">
+                  <input type="text" class="form-control" id="inputName" placeholder="Name">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputInstitution" class="col-lg-2 control-label">Institution</label>
+                <div class="col-lg-10">
+                  <input type="text" class="form-control" id="inputInstitution" placeholder="Institution">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                <div class="col-lg-10">
+                  <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                  <input id="submitButton" type="button" class="btn btn-primary" value="Submit"></input>
+                  <span id="submitMsg" class="help-block"></span>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+  $('#submitButton').on('click', function(){
+    if (!$('#inputName').val().match(/.+ .+/)) {
+      $('#submitMsg').text('Please input your full name.')
+      return
+    }
+    if ($('#inputInstitution').val() == "") {
+      $('#submitMsg').text('Please input your institution.')
+      return
+    }
+    if (!$('#inputEmail').val().match(/.+@.+\.edu/)) {
+      $('#submitMsg').text('Sorry, only ".edu" email address is accepted.')
+      return
+    }
+    $('#submitMsg').text("Redirecting ...")
+    window.location.href = "https://gitlab.com/uhcclxgg/granatum"
+  })
+</script>
 </body>
 </html>
