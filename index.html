@@ -15,109 +15,88 @@
             overflow-y: scroll;
             font-family: Roboto, sans-serif;
         }
-
         h4 {
             font-size: 1.3em;
         }
-
         .container {
             margin-top: 20px;
         }
-
         .row {
             margin-bottom: 20px;
         }
-
         .card-badge {
             font-size: 5em;
             margin: 20px 30px 30px 30px;
         }
-
         .panel-body {
             padding: 20px;
         }
-
         .card-title {
             text-align: center;
         }
-
         .card-title h4 {
             color: grey;
             margin-bottom: 17px;
         }
-
         .card-info {
             margin: 10px;
             margin-bottom: 20px;
             font-size: 0.85em;
             color: #999;
         }
-
         .collapse .in {
             transition: 1s;
         }
-
         .the-one-toggle:hover .to-be-toggled {
             max-height: 41px;
         }
-
         .to-be-toggled {
             max-height: 0;
             overflow: hidden;
             transition: max-height 0.25s;
         }
-
         .footer {
             border-top: 1px solid #ccc;
             padding-top: 3px;
             font-size: 0.6em;
             color: #aaa;
         }
-
         .footer .info-phrase:hover {
             color: #333;
         }
-
         .alert a {
             color: inherit;
             font-weight: inherit;
             text-decoration: none;
         }
-
         .alert a:hover {
             text-decoration: none;
             color: #000;
         }
-
         #publications h4 {
             margin-top: 30px;
             color: #aaa;
         }
-
         #members h3 {
             margin-top: 60px;
             margin-bottom: 30px;
             color: #aaa;
         }
-
         #members .member-photo {
             background-size: auto 100%;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
         }
-
         #carousel-example-generic {
             height: 600px;
             overflow: hidden;
             margin-bottom: 20px;
         }
-
         #carousel-example-generic .carousel-inner {
             width: 100%;
             height: 100%;
         }
-
         #carousel-example-generic .carousel-inner .item {
             background-position: center;
             background-repeat: no-repeat;
@@ -125,7 +104,6 @@
             width: 100%;
             height: 100%;
         }
-
         p.large {
             font-size: 1.1em;
         }
@@ -154,9 +132,9 @@
         <div class="tab-content">
             <div class="tab-pane active fade in" id="index">
                 <div class="alert alert-dismissable alert-success fade in">
-                    <strong>News: 2/18/2019 </strong>&nbsp; Welcome lab manager Dr. Hui Li to join the group. <br>
-                    <strong>News: 2/11/2019 </strong>&nbsp; Welcome new graduate student Yuheng Du join the group (Biostatistics). <br>
-                    <strong>News: 2/6/2019 </strong>&nbsp; The review manuscript Dr. Garmire collaborates with researchers at MSU, UCSF and Stanford is accepted by Nature Reviews in Gastroenterology and Hepatology . <br>
+					<strong>News: 4/1/2019 </strong>&nbsp; Welcome graduate student Yibo Wang (Biostatistics) to join the group. <br>
+					<strong>News: 3/28/2019 </strong>&nbsp; The perspective article on Pediatric Cell Atlas (PCA) which Dr. Garmire co-authors is published online:  https://www.sciencedirect.com/science/article/pii/S1534580719301789 <br>
+					<strong>News: 3/26/2019 </strong>&nbsp; Qianhui’s abstract on evaluating deconvolution methods in scRNA-Seq data is accepted for an oral presentation in Great Lakes Bioinformatics Conferene 2019. Congratulations! <br>
 
                 </div>
                 <div class="alert alert-dismissable alert-info fade in" style="background-color:#FFCCCC; color:#FF6666">
@@ -629,7 +607,10 @@
                 <div id="mainContent">
                     <h2> News </h2>
                     <ul>                    
-                        
+                     
+					 <strong>News: 2/18/2019 </strong>&nbsp; Welcome lab manager Dr. Hui Li to join the group. <br>
+                     <strong>News: 2/11/2019 </strong>&nbsp; Welcome new graduate student Yuheng Du join the group (Biostatistics). <br>
+                     <strong>News: 2/6/2019 </strong>&nbsp; The review manuscript Dr. Garmire collaborates with researchers at MSU, UCSF and Stanford is accepted by Nature Reviews in Gastroenterology and Hepatology . <br>
                      <strong>News: 11/26/2018 </strong>&nbsp; Welcome new graduate student Qianhui Huang join the group (Biostatistics). <br>
 
                     <a href="about:blank"><strong>News: 10/01/2018 </strong>&nbsp; Welcome new members of the group: Dr. Yu Liu (postdoc) and graduate student Noshad Hosseini (DCMB). </a> <br>
@@ -799,6 +780,14 @@
                 <div id="mainContent">
                     <h2>Publications</h2>
                     <h4><strong>2019</strong></h4>
+					<div class="publication-item">
+						<p>Book chapters: chapter 19: Data analysis in Single Cell Omics. Single-cell Omics, Vol. 1 (Elsevier)
+						</p>
+					</div>
+					<div class="publication-item">
+						<p>56. The Pediatric Cell Atlas: Defining the Growth Phase of Human Development at Single-Cell Resolution, (<a href="https://www.google.com/url?q=https://www.sciencedirect.com/science/article/pii/S1534580719301789&sa=D&source=hangouts&ust=1554299024335000&usg=AFQjCNFugnlWooGttc2mOczMqG--3MFqTQ">Dev Cell, 2019</a>)
+						</p>
+					</div>
                     <div class="publication-item">
                          <p>55. Chen B, <strong> Garmire LX </strong>, Calvisi BF, Chen X, Discovery of novel therapeutics for hepatocellular carcinoma using big omics data and artificial intelligence, accepted, Nature Reviews. Gastroenterology & Hepatology.  
                         </p>   
@@ -1248,7 +1237,6 @@
         fhsh.src = "//s1.freehostedscripts.net/ocount.php?site=" + fhs_id_h + "&name=Visits&a=1";
         document.head.appendChild(fhsh);
         document.getElementById('visitor-counter').innerHTML = "<span id='h_" + fhs_id_h + "'></span>";
-
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
             i[r] = i[r] || function() {
