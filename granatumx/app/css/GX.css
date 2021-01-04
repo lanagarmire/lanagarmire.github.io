@@ -1,0 +1,39 @@
+header {
+    text-align: center;
+}
+
+pre {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #f36d33;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
+
+pre {
+    counter-reset: line;
+}
+
+code {
+    counter-increment: line;
+}
+
+code::before {
+    content: counter(line);
+    display: inline-block;
+    width: 1.5em; /* Fixed width */
+    border-right: 1px solid #ddd;
+    padding: 0 .5em;
+    margin-right: .5em;
+    color: #888;
+    -webkit-user-select: none;
+}

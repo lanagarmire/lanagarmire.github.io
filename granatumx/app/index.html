@@ -2,6 +2,82 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/GX.css"/>
   <!-- <meta http-equiv="refresh" content="0; url=https://lanagarmiregroup.shinyapps.io/granatum/"/> -->
-  <meta http-equiv="refresh" content="0; url=https://ns103173.ip-147-135-38.us/"/>
+  <!--  <meta http-equiv="refresh" content="0; url=https://ns103173.ip-147-135-38.us/"/>-->
 </head>
+<body>
+<article>
+  <header>
+    <h1>
+      GranatumX: A community engaging and flexible software environment for single-cell analysis
+    </h1>
+    <h3>
+      Authors: GranatumX (alias to current author membership located <a href="authors.html">here</a>)
+    </h3>
+  </header>
+  <section>
+    <h2>
+      Cloud location
+    </h2>
+    <p>
+      A cloud deployment of GranatumX or GX is located at <a href="https://granatumx.hopto.org">https://granatumx.hopto.org</a>.
+      Feel free to run your data through this system, but note that files may be removed after a period of inactivity.
+      You may refer back to this page as a guide to process your data. If you are a tool developer, we include instructions
+      for building your own tools that can be used directly by biologists to process their data and a citation for your
+      work will be given to them.
+    </p>
+  </section>
+  <section>
+    <h2>
+      Getting started using the web interface
+    </h2>
+
+    <h3>Browser compatibility</h3>
+    <p>GX works with most browsers; however, it is optimized for Google Chrome or Safari-based browsers.</p>
+
+    <h3>Matrix preparation for data</h3>
+    <p>
+      You can upload expression data using a csv, tsv, or zip file. For large matrices, it is recommended to use zip compression on your csv data.
+      The header row should consist of the cell titles. These cell titles will be corresponded to associated data in the metafile data.
+      The column of your data matrix is the gene id. You can typically export the matrix from Excel if that is where your data is located.
+      If you have a 100000 cell table, then your size can be quite large. You should upload your data as a zipped csv file. Note that spacing is ignored.
+      <pre class="code">
+        <code>""      ,"cell_1","cell_2","cell_3"</code>
+        <code>"gene 1",       0,      10,       2</code>
+        <code>"gene 2",       2,       8,       1</code>
+      </pre>
+    </p>
+    <p>
+      Large files require zipping or gzipping (gz). Your metadata should use the same format.
+    </p>
+    <p>
+      You can upload metadata as a csv, tsv, or zip file as well. This file associates the cell label from the matrix data file to additional data such as cell annotations.
+      <pre class="code">
+        <code>""      ,"annotation_1","annotation_2"</code>
+        <code>"cell_1", "lung tissue",   "cancerous"</code>
+        <code>"cell_2","heart tissue",   "cancerous"</code>
+        <code>"cell_3", "lung tissue",      "normal"</code>
+      </pre>
+    </p>
+
+    <p>
+      You can load the comprehensive pipeline and use the example data to test.
+    </p>
+
+    <p>
+      If you get stuck at a step or the ui is unresposnsive you can reload the page without losing your information.
+    </p>
+
+  </section>
+  <section>
+    <h2>Running locally</h2>
+    <p>
+      You can follow the steps <a href="https://docs.google.com/document/d/1XxFoXasQeeJXH_gnwLYvDtPo16DCwLdeo4nidDH4WsI/edit?usp=sharing">here</a>.
+    </p>
+
+  </section>
+</article>
+
+</body>
+</html>
