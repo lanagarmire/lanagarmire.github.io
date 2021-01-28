@@ -56,7 +56,11 @@
       <workItem from="1608756017733" duration="26000" />
       <workItem from="1608820924757" duration="13527000" />
       <workItem from="1611604971322" duration="33000" />
-      <workItem from="1611605078932" duration="90000" />
+      <workItem from="1611605078932" duration="655000" />
+      <workItem from="1611606157127" duration="678000" />
+      <workItem from="1611848440682" duration="31000" />
+      <workItem from="1611848547241" duration="1860000" />
+      <workItem from="1611867670057" duration="121000" />
     </task>
     <task id="LOCAL-00001" summary="Updated to fix Software tab">
       <created>1602782189564</created>
@@ -79,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609773011020</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated to fix Software tab">
+      <created>1611605191437</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611605191437</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
