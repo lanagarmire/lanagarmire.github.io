@@ -60,7 +60,10 @@
       <workItem from="1611606157127" duration="678000" />
       <workItem from="1611848440682" duration="31000" />
       <workItem from="1611848547241" duration="1860000" />
-      <workItem from="1611867670057" duration="121000" />
+      <workItem from="1611867670057" duration="1399000" />
+      <workItem from="1614009315469" duration="598000" />
+      <workItem from="1614177282441" duration="38000" />
+      <workItem from="1614177345525" duration="162000" />
     </task>
     <task id="LOCAL-00001" summary="Updated to fix Software tab">
       <created>1602782189564</created>
@@ -90,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611605191437</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated message for GX users">
+      <created>1611867827961</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611867827961</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated to fix Software tab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated to fix Software tab" />
+    <MESSAGE value="Updated message for GX users" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated message for GX users" />
   </component>
 </project>
