@@ -14,7 +14,7 @@
   
     * If you would like to run as a web service for others, you can install and run Apache and use a Proxy to the port, but be sure to increase ProxyTimeout for large files and install to root &quot;/&quot; for the web location.
 
-3. **Modify the template, [R template](https://github.com/lanagarmire/lanagarmire.github.io/tree/master/granatumx/R_template) or [Python template](https://github.com/lanagarmire/lanagarmire.github.io/tree/master/granatumx/python_template), to install required dependencies.** Edit the Dockerfile by adding any package installation scripts your Gbox requires. You may add the commands to install packages directly in Dockerfile, or, if you are using the R template, feel free to modify the install\_packages.R script instead.
+3. **Modify the template, [R template](https://github.com/lanagarmire/lanagarmire.github.io/tree/master/granatumx/tutorial/R_template) or [Python template](https://github.com/lanagarmire/lanagarmire.github.io/tree/master/granatumx/tutorial/python_template), to install required dependencies.** Edit the Dockerfile by adding any package installation scripts your Gbox requires. You may add the commands to install packages directly in Dockerfile, or, if you are using the R template, feel free to modify the install\_packages.R script instead.
 
 4. **Specify the name and version of your Gbox:** supply the Gbox name as the first line of GBOX\_BASE\_NAME.txt file (this name should be lowercase), and its version as the first name of the VERSION.txt file. Those two values will replace {VER} and {GBOX} in package.yaml file.
 

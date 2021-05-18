@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f3941d7-11c0-440c-bbfe-8b06504c1701" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/granatumx/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/granatumx/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/granatumx/tutorial/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/granatumx/tutorial/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,7 @@
       <workItem from="1619028370977" duration="2328000" />
       <workItem from="1619543140022" duration="2277000" />
       <workItem from="1621364458585" duration="43000" />
-      <workItem from="1621364594324" duration="3430000" />
+      <workItem from="1621364594324" duration="3650000" />
     </task>
     <task id="LOCAL-00001" summary="Updated to fix Software tab">
       <created>1602782189564</created>
@@ -177,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621367526983</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Updated files for tutorial">
+      <created>1621368320861</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1621368320861</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
