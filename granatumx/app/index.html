@@ -5,6 +5,12 @@
   <link rel="stylesheet" href="css/GX.css"/>
   <!-- <meta http-equiv="refresh" content="0; url=https://lanagarmiregroup.shinyapps.io/granatum/"/> -->
   <!--  <meta http-equiv="refresh" content="0; url=https://ns103173.ip-147-135-38.us/"/>-->
+  <!-- Lightweight client-side loader that feature-detects and load polyfills only when necessary -->
+  <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+
+  <!-- Load the element definition -->
+  <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+
 </head>
 <body>
 <article>
@@ -90,7 +96,7 @@
 
   </section>
   <section>
-    <h2>Running locally and developing Gboxes</h2>
+    <h2>Running locally</h2>
     <p>
       For setting up WSL2 on Windows, you can also view the video located here:
     </p>
@@ -101,13 +107,17 @@
     <p align="center">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/5RQbdMn04Oc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </p>
-    <p>
-      After you have a Bash terminal installed and a copy of Docker working, you can follow the steps <a href="https://docs.google.com/document/d/1hHIKrSyJqg3AmDloc4gFdKrkFjX5eDS8/view">here</a> and watch the video below.
-    </p>
-    <p align="center">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/aBMoxBcDnEI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </p>
-
+  </section>
+  <!-- Simply set the `src` attribute to your MD file and win -->
+  <section>
+      <h2>Creating your own GBOX</h2>
+      <p>
+        After you have a Bash terminal installed and a copy of Docker working, you can follow the steps below and watch the video below.
+      </p>
+      <p align="center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aBMoxBcDnEI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </p>
+      <zero-md src="../tutorial/README.md"></zero-md>
   </section>
 </article>
 
