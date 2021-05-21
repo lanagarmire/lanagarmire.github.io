@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3f3941d7-11c0-440c-bbfe-8b06504c1701" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/granatumx/tutorial/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/granatumx/tutorial/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/granatumx/app/css/GX.css" beforeDir="false" afterPath="$PROJECT_DIR$/granatumx/app/css/GX.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/granatumx/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/granatumx/app/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,8 @@
       <workItem from="1619543140022" duration="2277000" />
       <workItem from="1621364458585" duration="43000" />
       <workItem from="1621364594324" duration="4275000" />
-      <workItem from="1621540195561" duration="933000" />
+      <workItem from="1621540195561" duration="6313000" />
+      <workItem from="1621556340526" duration="868000" />
     </task>
     <task id="LOCAL-00001" summary="Updated to fix Software tab">
       <created>1602782189564</created>

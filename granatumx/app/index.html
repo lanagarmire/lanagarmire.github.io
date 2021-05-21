@@ -10,6 +10,57 @@
 
   <!-- Load the element definition -->
   <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+
+  <script>
+    function addCopyButtons(clipboard) {
+      document.querySelectorAll('pre > code').forEach(function (codeBlock) {
+        var button = document.createElement('button');
+        button.className = 'copy-code-button';
+        button.type = 'button';
+        button.innerText = 'Copy';
+
+        button.addEventListener('click', function () {
+          clipboard.writeText(codeBlock.innerText).then(function () {
+            /* Chrome doesn't seem to blur automatically,
+               leaving the button in a focused state. */
+            button.blur();
+
+            button.innerText = 'Copied!';
+
+            setTimeout(function () {
+              button.innerText = 'Copy';
+            }, 2000);
+          }, function (error) {
+            button.innerText = 'Error';
+          });
+        });
+
+        var pre = codeBlock.parentNode;
+        if (pre.parentNode.classList.contains('highlight')) {
+          var highlight = pre.parentNode;
+          highlight.parentNode.insertBefore(button, highlight);
+        } else {
+          pre.parentNode.insertBefore(button, pre);
+        }
+      });
+    }
+
+    function scr() {
+      if (navigator && navigator.clipboard) {
+        addCopyButtons(navigator.clipboard);
+      } else {
+        var script = document.createElement('script');
+        script.src = 'https://cdnjs.cloudflare.com/ajax/libs/clipboard-polyfill/2.7.0/clipboard-polyfill.promise.js';
+        script.integrity = 'sha256-waClS2re9NUbXRsryKoof+F9qc1gjjIhc2eT7ZbIv94=';
+        script.crossOrigin = 'anonymous';
+        script.onload = function() {
+          addCopyButtons(clipboard);
+        };
+
+        document.body.appendChild(script);
+      }
+    }
+  </script>
   <style>
     md-html {
       width: 200px;
@@ -17,6 +68,7 @@
   </style>
 
 </head>
+<!--<body onload="scr();">-->
 <body>
 <article>
   <header>
@@ -75,8 +127,7 @@
       <pre class="code">
         <code>""      ,"cell_1","cell_2","cell_3"</code>
         <code>"gene 1",       0,      10,       2</code>
-        <code>"gene 2",       2,       8,       1</code>
-      </pre>
+        <code>"gene 2",       2,       8,       1</code></pre>
     </p>
     <p>
       Large files require zipping or gzipping (gz). Your metadata should use the same format.
@@ -87,8 +138,7 @@
         <code>""      ,"annotation_1","annotation_2"</code>
         <code>"cell_1", "lung tissue",   "cancerous"</code>
         <code>"cell_2","heart tissue",   "cancerous"</code>
-        <code>"cell_3", "lung tissue",      "normal"</code>
-      </pre>
+        <code>"cell_3", "lung tissue",      "normal"</code></pre>
     </p>
 
     <p>
@@ -102,6 +152,7 @@
   </section>
   <section>
     <h2>Running locally</h2>
+    <p> As a prerequisite you will want sufficient RAM (16+ GB ideally), a working installation of docker, and a working bash shell.</p>
     <p>
       For setting up WSL2 on Windows, you can also view the video located here:
     </p>
@@ -111,6 +162,16 @@
     <p>For setting up Docker on Windows, you can also view the video located here:</p>
     <p align="center">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/5RQbdMn04Oc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+    <p>
+      For getting GranatumX up and running you will want to execute in your shell:
+      <pre class="code">
+        <code>source <( docker run --rm -it granatumx/scripts:1.0.0 gx.sh )</code></pre>
+    </p>
+    <p>
+      If you receive an error, run:
+      <pre class="code">
+        <code>curl -s http://garmiregroup.org/granatumx/app/gx.txt | source /dev/stdin</code></pre>
     </p>
   </section>
   <!-- Simply set the `src` attribute to your MD file and win -->

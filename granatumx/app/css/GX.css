@@ -2,6 +2,10 @@ header {
     text-align: center;
 }
 
+pre.code {
+    white-space: pre-wrap;
+}
+
 pre {
     background: #f4f4f4;
     border: 1px solid #ddd;
@@ -23,11 +27,15 @@ pre {
     counter-reset: line;
 }
 
-code {
+pre.code code {
     counter-increment: line;
 }
 
-code::before {
+pre.code:before {
+    counter-reset: line;
+}
+
+pre.code code:before {
     content: counter(line);
     display: inline-block;
     width: 1.5em; /* Fixed width */
