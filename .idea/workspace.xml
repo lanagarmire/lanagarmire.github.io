@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3f3941d7-11c0-440c-bbfe-8b06504c1701" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/granatumx/app/css/GX.css" beforeDir="false" afterPath="$PROJECT_DIR$/granatumx/app/css/GX.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/granatumx/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/granatumx/app/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +79,11 @@
       <workItem from="1621364458585" duration="43000" />
       <workItem from="1621364594324" duration="4275000" />
       <workItem from="1621540195561" duration="6313000" />
-      <workItem from="1621556340526" duration="868000" />
+      <workItem from="1621556340526" duration="1122000" />
+      <workItem from="1621610984116" duration="1505000" />
+      <workItem from="1623833067369" duration="142000" />
+      <workItem from="1624145363939" duration="52000" />
+      <workItem from="1624296509621" duration="806000" />
     </task>
     <task id="LOCAL-00001" summary="Updated to fix Software tab">
       <created>1602782189564</created>
