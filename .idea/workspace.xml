@@ -83,7 +83,9 @@
       <workItem from="1621610984116" duration="1505000" />
       <workItem from="1623833067369" duration="142000" />
       <workItem from="1624145363939" duration="52000" />
-      <workItem from="1624296509621" duration="806000" />
+      <workItem from="1624296509621" duration="1460000" />
+      <workItem from="1632498675700" duration="94000" />
+      <workItem from="1632498853474" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="Updated to fix Software tab">
       <created>1602782189564</created>
@@ -197,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621368538576</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added chinese accessibility">
+      <created>1624297375485</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1624297375485</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +230,7 @@
     <MESSAGE value="Updated broken nav" />
     <MESSAGE value="Updated with video from Stefan" />
     <MESSAGE value="Updated files for tutorial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated files for tutorial" />
+    <MESSAGE value="Added chinese accessibility" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added chinese accessibility" />
   </component>
 </project>
