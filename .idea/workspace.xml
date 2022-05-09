@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f3941d7-11c0-440c-bbfe-8b06504c1701" name="Default Changelist" comment="" />
+    <list default="true" id="3f3941d7-11c0-440c-bbfe-8b06504c1701" name="Default Changelist" comment="Fixed styling for bootstrap 5">
+      <change afterPath="$PROJECT_DIR$/member_photos/outdoor-park.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lanagarmire.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lanagarmire.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,20 +28,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1gBwhgKlxtSbWKcPmEQv8SaAffO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/granatumx/app" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/david/lanagarmire/lanagarmire.github.io",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\david\lanagarmire.github.io\granatumx\app" />
@@ -84,6 +101,9 @@
       <workItem from="1632498675700" duration="94000" />
       <workItem from="1632498853474" duration="255000" />
       <workItem from="1633112659060" duration="68000" />
+      <workItem from="1651772800974" duration="95000" />
+      <workItem from="1651773103083" duration="25666000" />
+      <workItem from="1652020573803" duration="13996000" />
     </task>
     <task id="LOCAL-00001" summary="Updated to fix Software tab">
       <created>1602782189564</created>
@@ -234,9 +254,9 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Updated to fix Software tab" />
     <MESSAGE value="Updated message for GX users" />
     <MESSAGE value="Updated broken nav" />
@@ -244,6 +264,11 @@
     <MESSAGE value="Updated files for tutorial" />
     <MESSAGE value="Added chinese accessibility" />
     <MESSAGE value="Added update for transitioning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added update for transitioning" />
+    <MESSAGE value="Fixed styling for bootstrap 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed styling for bootstrap 5" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
