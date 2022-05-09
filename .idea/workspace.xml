@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f3941d7-11c0-440c-bbfe-8b06504c1701" name="Default Changelist" comment="Fixed styling for bootstrap 5">
-      <change afterPath="$PROJECT_DIR$/member_photos/outdoor-park.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lanagarmire.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lanagarmire.github.io.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -103,7 +101,7 @@
       <workItem from="1633112659060" duration="68000" />
       <workItem from="1651772800974" duration="95000" />
       <workItem from="1651773103083" duration="25666000" />
-      <workItem from="1652020573803" duration="13996000" />
+      <workItem from="1652020573803" duration="14329000" />
     </task>
     <task id="LOCAL-00001" summary="Updated to fix Software tab">
       <created>1602782189564</created>
@@ -238,7 +236,28 @@
       <option name="project" value="LOCAL" />
       <updated>1632499077271</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Fixed styling for bootstrap 5">
+      <created>1652117893193</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1652117893193</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Fixed styling for bootstrap 5">
+      <created>1652117934725</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1652117934725</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Fixed styling for bootstrap 5">
+      <created>1652117995072</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1652117995072</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
