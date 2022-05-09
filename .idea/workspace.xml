@@ -101,7 +101,7 @@
       <workItem from="1633112659060" duration="68000" />
       <workItem from="1651772800974" duration="95000" />
       <workItem from="1651773103083" duration="25666000" />
-      <workItem from="1652020573803" duration="14329000" />
+      <workItem from="1652020573803" duration="14651000" />
     </task>
     <task id="LOCAL-00001" summary="Updated to fix Software tab">
       <created>1602782189564</created>
@@ -257,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652117995072</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Fixed styling for bootstrap 5">
+      <created>1652118214285</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1652118214285</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
