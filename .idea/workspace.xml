@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f3941d7-11c0-440c-bbfe-8b06504c1701" name="Default Changelist" comment="Fixed styling for bootstrap 5">
+      <change afterPath="$PROJECT_DIR$/member_photos/Baby-Shower.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +104,8 @@
       <workItem from="1651773103083" duration="25666000" />
       <workItem from="1652020573803" duration="14914000" />
       <workItem from="1652268603943" duration="46000" />
+      <workItem from="1665753600749" duration="51000" />
+      <workItem from="1665753677148" duration="287000" />
     </task>
     <task id="LOCAL-00001" summary="Updated to fix Software tab">
       <created>1602782189564</created>
