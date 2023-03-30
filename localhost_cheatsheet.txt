@@ -1,0 +1,3 @@
+# Use live-server to run locally instead of http-server
+live-server --port=8080 --entry-file=./index.html
+
